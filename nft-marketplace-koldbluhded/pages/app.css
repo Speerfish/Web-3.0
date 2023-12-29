@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(IMG_7050.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a{
+    color: #ffffff;
+    transition: all 0.2s;
+    padding: 13px;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+a:active{
+    opacity: 1;
+}
+
+button{
+    background-color: skyblue;
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 12px;
+    font-size: 13px;
+    border-radius: 13px;
+    width: 100%;
+    opacity: .85;
+}
+
+p.text-3x-1{
+    font-weight: bold;
+    color: white;
+}
+
+p.text-gray-400{
+    color:grey;
+    height: 400px;
+}
+
+div.p-4{
+    background-color: black;
+}
+
+div.grid-main{
+    columns: 1;
+    rows: 3;
+}
+
+div.w-1-2{
+   display: block;
+   width: 50%;
+   height: 100%;
+   margin: auto;
+}
+
+input{
+    padding: 25px;
+    opacity: .85;
+    color:rgb(3, 3, 3);
+}
+
+div.flex-mi2{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+div.p-4ad{
+    padding: 0px;
+}
+
+div.grid-ad{
+    columns: 1;
+    rows: 3;
+}
+
+p.text-3x-1ad{
+    font-weight: lighter;
+    color: white;
+}
+
+div.border-ad{
+    shadow: 2x 2x 5x skyblue;
+    border-radius: 13px;
+    overflow: hidden;
+    opacity: .76;
+}
